@@ -2,6 +2,14 @@
 layout: default
 ---
 
-<div class="fade-in-section">
-  {{ content }}
+<div class="home-grid">
+  <div class="home-content">
+    <div class="fade-in-section">
+      {{ content }}
+    </div>
+  </div>
+
+  <div>
+    {% include sidebar.html %}
+  </div>
 </div>

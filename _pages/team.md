@@ -1,6 +1,6 @@
 ---
 title: "团队成员"
-layout: teamlay
+layout: team
 sitemap: false
 permalink: /team/
 ---
