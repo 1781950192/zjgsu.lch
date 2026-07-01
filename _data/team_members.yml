@@ -3,20 +3,31 @@
 # 每个条目需要：name, photo, info
 # 可选：email, website, scholar, github, researchgate, cv
 
-# 导师和研究人员
+# 教师/研究人员
+- name: 马博
+  photo: team/mabo.jpg
+  info: 副教授，硕士生导师，英国谢菲尔德大学工学博士
+  email: bm@zjgsu.edu.cn
+  scholar: "https://scholar.google.com/citations?user=0f3da04AAAAJ"
+
+- name: 陈化清
+  photo: team/chenhuaqing.jpg
+  info: 讲师/副教授（请核实职称）
+  email: ""
+
+# 特聘研究员
 - name: 陈超
   photo: team/chenchao.jpg
   info: 特聘研究员，研究方向：边缘计算、算力网络
   email: chenchao@zjgsu.edu.cn
   scholar: ""
 
-# 博士生
+# 硕士生
 - name: 张三
   photo: team/zhangsan.jpg
-  info: 博士生，研究方向：软件定义网络
+  info: 硕士生，研究方向：软件定义网络
   email: ""
 
-# 硕士生
 - name: 李四
   photo: team/lisi.jpg
   info: 硕士生，研究方向：边缘智能
@@ -27,8 +38,7 @@
   info: 硕士生，研究方向：算力网络
   email: ""
 
-# 本科生
 - name: 赵六
   photo: team/zhaoliu.jpg
-  info: 本科生，研究方向：网络智能化
+  info: 硕士生，研究方向：网络智能化
   email: ""
