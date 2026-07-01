@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <h2 class="home-hero">智慧网络技术课题组</h2>
-<p class="home-hero-sub">浙江工商大学 计算机科学与技术学院</p>
+<p class="home-hero-sub">浙江工商大学 信息与电子工程学院</p>
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">智慧网络</a>
@@ -19,7 +19,7 @@ permalink: /
 
 ### 课题组简介
 
-智慧网络技术课题组（Smart Network Technology Group, SNTG）隶属于浙江工商大学计算机科学与技术学院，由李传煌教授领衔，围绕国家科技发展战略需求、服务社会发展宗旨，在智慧网络、软件定义网络、算力网络、边缘计算、人工智能等方向开展研究工作。
+智慧网络技术课题组（Smart Network Technology Group, SNTG）隶属于浙江工商大学信息与电子工程学院，由李传煌教授领衔，围绕国家科技发展战略需求、服务社会发展宗旨，在智慧网络、软件定义网络、算力网络、边缘计算、人工智能等方向开展研究工作。
 
 近年来，课题组发表论文50余篇，包括在 IEEE Transactions on Vehicular Technology、IEEE/ACM Transactions on Networking、Computer Networks、《通信学报》、《软件学报》等顶级期刊和会议。课题组还承担或参与了国家自然科学基金、国家重点研发计划、973、863等国家级项目，以及浙江省自然科学基金重点项目等省部级项目。与华为、阿里、腾讯、中国移动等知名企业建立了深厚的合作关系，取得了一系列重要的研究成果。
 
