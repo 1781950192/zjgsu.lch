@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "研究方向"
 layout: gridlay
 sitemap: false
 permalink: /research/

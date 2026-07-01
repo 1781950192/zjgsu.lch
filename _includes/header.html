@@ -15,7 +15,19 @@
         </li>
         {% for nav in site.nav_pages %}
         <li class="nav-item">
-          <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{{ nav.name | capitalize }}</a>
+          {% assign nav_label = nav.name %}
+          {% if nav.name == 'publications' %}
+            {% assign nav_label = '发表论文' %}
+          {% elsif nav.name == 'research' %}
+            {% assign nav_label = '研究方向' %}
+          {% elsif nav.name == 'team' %}
+            {% assign nav_label = '团队成员' %}
+          {% elsif nav.name == 'teaching' %}
+            {% assign nav_label = '教学' %}
+          {% else %}
+            {% assign nav_label = nav.name | capitalize %}
+          {% endif %}
+          <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{{ nav_label }}</a>
         </li>
         {% endfor %}
       </ul>
