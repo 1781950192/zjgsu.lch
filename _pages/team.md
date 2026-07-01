@@ -35,6 +35,12 @@ permalink: /team/
 </div>
 </div>
 
+## 课题组负责人简介
+
+<div class="section-card">
+{{ site.data.pi[0].bio }}
+</div>
+
 {% if site.data.team_members.size > 0 %}
 ## 导师和研究人员
 
