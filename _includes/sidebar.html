@@ -24,6 +24,13 @@
 {% endif %}
 </div>
 
+{% if site.data.pi[0].bio %}
+<div class="section-card" style="margin-top: var(--space-6);">
+  <h4 style="margin-top: 0;">简介</h4>
+  <p style="font-size: 0.875rem; color: var(--text-secondary);">{{ site.data.pi[0].bio }}</p>
+</div>
+{% endif %}
+
 <div class="section-card" style="margin-top: var(--space-6);">
 <h4 style="margin-top: 0;">News</h4>
 <div class="news-timeline">
