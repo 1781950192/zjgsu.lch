@@ -7,14 +7,10 @@ permalink: /team/
 
 ## 课题组负责人
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px; align-items: flex-start;">
-
-<div style="flex: 0 0 250px;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" alt="{{ site.name }}" style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" loading="lazy">
-</div>
-
-<div style="flex: 1; min-width: 300px;">
-
+<div class="section-card">
+<div class="member-profile">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" alt="{{ site.name }}" class="member-photo" loading="lazy">
+<div class="member-info">
 ### {{ site.data.pi[0].name }}
 
 **职称**：教授，博士生导师
@@ -26,8 +22,6 @@ permalink: /team/
 **电子邮件**：{{ site.email }}
 
 **办公室地址**：{{ site.data.pi[0].address }}
-
-**个人简介**：
 
 {{ site.data.pi[0].bio }}
 
@@ -49,23 +43,17 @@ permalink: /team/
 **国际标准**：参与制定IETF互联网国际标准RFC6956、RFC5813、RFC6984、RFC6053等。
 
 </div>
-
 </div>
-
-* * *
+</div>
 
 ## 课题组科研骨干
 
-### 陈超
-
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px; align-items: flex-start;">
-
-<div style="flex: 0 0 200px;">
+<div class="section-card">
 {% assign chenchao = site.data.team_members | where: "name", "陈超" | first %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ chenchao.photo | default: 'team/default.jpg' }}" alt="陈超" style="width: 100%; max-width: 200px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" loading="lazy">
-</div>
-
-<div style="flex: 1; min-width: 300px;">
+<div class="member-profile">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ chenchao.photo | default: 'team/default.jpg' }}" alt="陈超" class="member-photo" loading="lazy">
+<div class="member-info">
+### 陈超
 
 **职称**：特聘研究员，副教授，硕士生导师
 
@@ -92,21 +80,15 @@ permalink: /team/
 - 国家自然科学基金"基于流体模型的无线中继网络多播编码与优化调度"（2019-2021），主持
 
 </div>
-
+</div>
 </div>
 
-* * *
-
-### 马博
-
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px; align-items: flex-start;">
-
-<div style="flex: 0 0 200px;">
+<div class="section-card">
 {% assign mabo = site.data.team_members | where: "name", "马博" | first %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ mabo.photo | default: 'team/default.jpg' }}" alt="马博" style="width: 100%; max-width: 200px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" loading="lazy">
-</div>
-
-<div style="flex: 1; min-width: 300px;">
+<div class="member-profile">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ mabo.photo | default: 'team/default.jpg' }}" alt="马博" class="member-photo" loading="lazy">
+<div class="member-info">
+### 马博
 
 **职称**：副教授，硕士生导师
 
@@ -133,7 +115,7 @@ permalink: /team/
 - 浙江工商大学省属高校基本科研业务费项目（青锐项目）"智联计算网络无人机业务承载方法研究"（2023），主持
 
 </div>
-
+</div>
 </div>
 
 {% if site.data.team_members.size > 0 %}

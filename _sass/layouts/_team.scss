@@ -1,5 +1,78 @@
 // =============================================================
-// Team page — CSS Grid card layout
+// Team page — Faculty member profile layout
+// =============================================================
+
+// Member profile — horizontal layout (photo left, info right)
+.member-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  align-items: flex-start;
+  margin-bottom: var(--space-8);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.member-photo {
+  flex: 0 0 220px;
+  width: 220px;
+  height: auto;
+  max-height: 280px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 0 0 1px var(--border-color), var(--shadow-md);
+
+  @media (max-width: 768px) {
+    flex: 0 0 auto;
+    width: 200px;
+    max-height: 250px;
+  }
+}
+
+.member-info {
+  flex: 1;
+  min-width: 300px;
+
+  h3, h4 {
+    margin-top: 0;
+    margin-bottom: var(--space-3);
+    color: var(--text-primary);
+  }
+
+  p {
+    margin-bottom: var(--space-3);
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
+
+  ul, ol {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-6);
+    color: var(--text-secondary);
+  }
+
+  li {
+    margin-bottom: var(--space-2);
+    line-height: 1.6;
+  }
+
+  strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    min-width: 100%;
+  }
+}
+
+// =============================================================
+// Team page — CSS Grid card layout (for students)
 // =============================================================
 
 .team-grid {
