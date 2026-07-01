@@ -5,8 +5,8 @@ sitemap: false
 permalink: /
 ---
 
-<h2 class="home-hero">{{ site.name }}课题组</h2>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<h2 class="home-hero">智慧网络技术课题组</h2>
+<p class="home-hero-sub">浙江工商大学 计算机科学与技术学院</p>
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">智慧网络</a>
@@ -17,17 +17,13 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">开放架构网络</a>
 </div>
 
-欢迎来到李传煌教授课题组！我们隶属于浙江工商大学计算机科学与技术学院，主要研究方向包括智慧网络、软件定义网络、算力网络、边缘计算、人工智能及应用。
+### 课题组简介
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> 浙江省万人计划科技创新领军人才 (2022)</div>
-<p>李传煌教授入选浙江省万人计划科技创新领军人才，表彰其在新一代网络技术研究和产业化应用方面的突出贡献。</p>
-</div>
+智慧网络技术课题组（Smart Network Technology Group, SNTG）隶属于浙江工商大学计算机科学与技术学院，由李传煌教授领衔，围绕国家科技发展战略需求、服务社会发展宗旨，在智慧网络、软件定义网络、算力网络、边缘计算、人工智能等方向开展研究工作。
 
-<div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="智慧网络技术" loading="lazy">
-<div class="banner-caption">智慧网络技术课题组 - 可编程网络、边缘网络、算力网络等新一代网络技术</div>
-</div>
+近年来，课题组发表论文50余篇，包括在 IEEE Transactions on Vehicular Technology、IEEE/ACM Transactions on Networking、Computer Networks、《通信学报》、《软件学报》等顶级期刊和会议。课题组还承担或参与了国家自然科学基金、国家重点研发计划、973、863等国家级项目，以及浙江省自然科学基金重点项目等省部级项目。与华为、阿里、腾讯、中国移动等知名企业建立了深厚的合作关系，取得了一系列重要的研究成果。
+
+课题组根据研究方向分为多个研究小组：智慧网络组、软件定义网络组、算力网络组。每个研究小组由1-2名教师带头，由若干博士生、硕士生组成。研究团队新加入的成员可以根据自身兴趣选择合适的研究方向。
 
 ### 研究方向
 
