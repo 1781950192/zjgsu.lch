@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#e8eaf6"/>
+  <circle cx="150" cy="80" r="30" fill="#5c6bc0"/>
+  <path d="M 120 120 Q 150 100 180 120" fill="none" stroke="#1a237e" stroke-width="3"/>
+  <path d="M 110 140 Q 150 120 190 140" fill="none" stroke="#1a237e" stroke-width="3"/>
+  <line x1="150" y1="80" x2="150" y2="110" stroke="#5c6bc0" stroke-width="2"/>
+  <text x="150" y="180" text-anchor="middle" font-size="16" fill="#5c6bc0">AI + Network</text>
+</svg>
