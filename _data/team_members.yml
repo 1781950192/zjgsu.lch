@@ -4,23 +4,17 @@
 # 可选：email, website, scholar, github, researchgate, cv
 
 # 教师/研究人员
+- name: 陈超
+  photo: team/chenchao.jpg
+  info: 特聘研究员，副教授，硕士生导师
+  email: chenchao@zjgsu.edu.cn
+  scholar: ""
+
 - name: 马博
   photo: team/mabo.jpg
   info: 副教授，硕士生导师，英国谢菲尔德大学工学博士
-  email: bm@zjgsu.edu.cn
+  email: mabo@zjgsu.edu.cn
   scholar: "https://scholar.google.com/citations?user=0f3da04AAAAJ"
-
-- name: 陈化清
-  photo: team/chenhuaqing.jpg
-  info: 讲师/副教授（请核实职称）
-  email: ""
-
-# 特聘研究员
-- name: 陈超
-  photo: team/chenchao.jpg
-  info: 特聘研究员，研究方向：边缘计算、算力网络
-  email: chenchao@zjgsu.edu.cn
-  scholar: ""
 
 # 硕士生
 - name: 张三
