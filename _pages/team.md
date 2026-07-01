@@ -5,11 +5,11 @@ sitemap: false
 permalink: /team/
 ---
 
-## Team
+## 团队成员
 
-**We are looking for new team members!**
+**李传煌课题组欢迎新的研究生加入！**
 
-## PI
+## 课题组负责人
 
 <div class="section-card">
 <div class="pi-card">
@@ -36,7 +36,7 @@ permalink: /team/
 </div>
 
 {% if site.data.team_members.size > 0 %}
-## Current Students and Postdocs
+## 导师和研究人员
 
 <div class="team-grid">
 {% for member in site.data.team_members %}
@@ -56,12 +56,12 @@ permalink: /team/
 {% endif %}
 
 {% if site.data.alumni.size > 0 %}
-## Alumni
+## 毕业生
 
 <div class="section-card">
 <table class="alumni-table">
 <thead>
-<tr><th>Name</th><th>Duration</th><th>Current Position</th></tr>
+<tr><th>姓名</th><th>在读时间</th><th>当前职位</th></tr>
 </thead>
 <tbody>
 {% for member in site.data.alumni %}
@@ -76,6 +76,6 @@ permalink: /team/
 </div>
 {% endif %}
 
-## Administrative Support
+## 行政支持
 
-<a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
+如有任何行政事务疑问，请联系课题组行政人员。

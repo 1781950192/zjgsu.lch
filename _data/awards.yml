@@ -1,7 +1,9 @@
-# Awards and honors, shown on the About page.
-# Each entry needs: name
-- name: Nobel Prize in Physics (1965)
-- name: Albert Einstein Award (1954)
-- name: E.O. Lawrence Award (1962)
-- name: Oersted Medal, AAPT (1972)
-- name: National Medal of Science (1979)
+# 李传煌教授获奖情况和荣誉
+# 显示在 About 页面
+
+- name: "浙江省万人计划科技创新领军人才 (2024)"
+- name: "浙江省技术发明一等奖"
+- name: "浙江省科技进步二等奖"
+- name: "教育部高等学校科学研究优秀成果科学技术进步二等奖"
+- name: "浙江省高校优秀科研成果一等奖"
+- name: "全国商业科技进步奖三等奖"

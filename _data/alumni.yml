@@ -1,18 +1,18 @@
-# Former lab members.
-# Each entry needs: name, duration, info
-# Optional: photo, email
+# 毕业生信息
+# 请替换为真实的毕业生信息
+# 每个条目需要：name, duration, info
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  duration: 1951-55
-  info: Now at Jet Propulsion Laboratory
+- name: 示例毕业生1
+  photo: team/example1.jpg
+  duration: 2020-2023
+  info: 现在某公司担任网络工程师
 
-- name: William Frazer
-  photo: team/william-frazer.svg
-  duration: 1954-58
-  info: Now Professor at UC San Diego
+- name: 示例毕业生2
+  photo: team/example2.jpg
+  duration: 2019-2022
+  info: 现在某高校攻读博士学位
 
-- name: Robert Hellwarth
-  photo: team/robert-hellwarth.svg
-  duration: 1952-56
-  info: Now Professor at USC
+- name: 示例毕业生3
+  photo: team/example3.jpg
+  duration: 2018-2021
+  info: 现在某研究院工作

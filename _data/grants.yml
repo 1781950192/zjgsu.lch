@@ -1,5 +1,15 @@
-# Grants and funding, shown on the About page.
-# Each entry needs: name
-- name: NSF Grant for Quantum Electrodynamics Research
-- name: ONR Contract for Parallel Computing Research
-- name: DOE Grant for Parton Model Development
+# 李传煌教授课题组科研项目和资助
+# 显示在 About 页面
+
+# 国家级项目
+- name: "国家自然科学基金项目（主持，3项）"
+- name: "国家重点研发计划项目（核心成员，1项）"
+- name: "国家973项目（核心成员，1项）"
+- name: "国家863计划项目（核心成员，3项）"
+
+# 省部级项目
+- name: "浙江省自然科学基金项目（主持，含重点项目，6项）"
+- name: "浙江省科技计划项目（主持，3项）"
+
+# 其他项目
+- name: "企业合作项目（多项）"

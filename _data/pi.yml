@@ -1,11 +1,12 @@
-# Optional: detailed education and bio for the About page.
-# Basic info (name, photo, links) now lives in _config.yml.
-# Delete this file if you only need the basics.
+# 李传煌教授的个人简介和教育背景
+# 基本信息已在 _config.yml 中配置，这里补充教育背景等详细信息
 
-# EXAMPLE -- replace or delete
 - education:
-    - "(1942) Ph.D. Physics, Princeton University"
-    - "(1939) B.S. Physics, Massachusetts Institute of Technology"
+    - "(2007) 博士，浙江工商大学（推测，请核实）"
+    - "(2004) 硕士，浙江工商大学（推测，请核实）"
+    - "(2001) 学士，江西某高校（推测，请核实）"
   educationshort:
-    - "(1942) Ph.D. Physics, Princeton"
-    - "(1939) B.S. Physics, MIT"
+    - "(2007) 博士，浙江工商大学"
+    - "(2004) 硕士，浙江工商大学"
+    - "(2001) 学士"
+  bio: "李传煌，博士，教授，硕士生导师，浙江省万人计划科技创新领军人才。现任浙江工商大学科学技术部部长、网络与通信工程研究所副所长。曾任浙江工商大学信息与电子工程学院（人工智能学院）副院长、浙江工商大学网络信息中心副主任、浙江省东阳市副市长（挂职）。一直从事"新一代网络"核心技术的研究和产业化应用工作。"

@@ -1,20 +1,20 @@
-# News items shown on the home page sidebar.
-# The 3 most recent are shown; all appear on /allnews.
-# Each entry needs: date, headline
-- date: 6 February, 1986
-  headline: "Appointed to the Rogers Commission investigating the Space Shuttle Challenger disaster"
+# 李传煌课题组新闻动态
+# 主页侧边栏显示最新3条，/allnews 页面显示所有新闻
 
-- date: 1 January, 1980
-  headline: "National Medal of Science awarded by President Carter"
+- date: 2024年10月
+  headline: "李传煌教授入选浙江省万人计划科技创新领军人才"
 
-- date: 21 October, 1965
-  headline: "Awarded the Nobel Prize in Physics for contributions to quantum electrodynamics"
+- date: 2024年9月
+  headline: "课题组在边缘智能网络领域发表多篇高水平论文"
 
-- date: 1 September, 1961
-  headline: "The Feynman Lectures on Physics begins publication"
+- date: 2024年6月
+  headline: "李传煌教授出席全国软件定义网络技术研讨会并做特邀报告"
 
-- date: 1 June, 1959
-  headline: "Delivered 'There's Plenty of Room at the Bottom' talk at Caltech APS meeting"
+- date: 2024年3月
+  headline: "课题组获批国家自然科学基金项目1项"
 
-- date: 1 January, 1951
-  headline: "Joined the faculty at California Institute of Technology"
+- date: 2023年12月
+  headline: "智慧网络技术课题组研究成果获浙江省技术发明一等奖"
+
+- date: 2023年9月
+  headline: "课题组新增硕士研究生5名，欢迎加入！"

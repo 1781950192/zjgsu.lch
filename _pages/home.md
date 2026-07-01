@@ -5,35 +5,32 @@ sitemap: false
 permalink: /
 ---
 
-<h2 class="home-hero">{{ site.name }}</h2>
+<h2 class="home-hero">{{ site.name }}课题组</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">智慧网络</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">软件定义网络</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">算力网络</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">边缘计算</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">人工智能</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">开放架构网络</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+欢迎来到李传煌教授课题组！我们隶属于浙江工商大学计算机科学与技术学院，主要研究方向包括智慧网络、软件定义网络、算力网络、边缘计算和人工智能及应用。
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> 浙江省万人计划科技创新领军人才 (2024)</div>
+<p>李传煌教授入选2024年浙江省万人计划科技创新领军人才，表彰其在新一代网络技术研究和产业化应用方面的突出贡献。</p>
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="智慧网络技术" loading="lazy">
+<div class="banner-caption">智慧网络技术课题组 - 可编程网络、边缘网络、算力网络等新一代网络技术</div>
 </div>
 
-### About me
+### 课题组简介
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+李传煌，博士，教授，硕士生导师，浙江省万人计划科技创新领军人才。现任浙江工商大学科学技术部部长、浙江工商大学网络与通信工程研究所副所长。曾任浙江工商大学信息与电子工程学院（人工智能学院）副院长、浙江工商大学网络信息中心副主任、浙江省东阳市副市长（挂职）。
+
+一直从事"新一代网络"核心技术的研究和产业化应用工作，主持国家级项目3项、省级重点/一般项目6项，以骨干参与国家重点研发计划、973、863等项目。首次提出网络转发与控制分离技术模型体系，提出基于模型化的网络切片基站技术，以联合作者身份制定IETF互联网国际标准RFC6956，以文本所列贡献者身份制定国际标准3项(RFC5813、RFC6984、RFC6053)。
