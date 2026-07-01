@@ -12,16 +12,16 @@ permalink: /research/
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/smart-network.svg" class="research-thumb" alt="智慧网络">
 <div class="research-body">
-<h4 class="research-title">智慧网络</h4>
-<p class="research-desc">研究智能、自适应的新一代网络架构，包括网络智能化、自动化运维、智能流量调度等技术。通过人工智能技术提升网络性能和管理效率。</p>
+<h4 class="research-title">智慧网络、开放架构网络</h4>
+<p class="research-desc">研究智慧网络架构、开放架构网络技术，包括网络虚拟化、网络性能评估等。</p>
 </div>
 </div>
 
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/sdn.svg" class="research-thumb" alt="软件定义网络">
 <div class="research-body">
-<h4 class="research-title">软件定义网络 (SDN)</h4>
-<p class="research-desc">研究软件定义网络架构、控制平面与数据平面分离技术、网络虚拟化等。首次提出网络转发与控制分离技术模型体系，制定多项IETF国际标准。</p>
+<h4 class="research-title">软件定义网络（SDN）</h4>
+<p class="research-desc">研究软件定义网络技术，包括SDN智能服务部署、SDN路由优化、SDN安全等。</p>
 </div>
 </div>
 
@@ -29,32 +29,46 @@ permalink: /research/
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/computing-network.svg" class="research-thumb" alt="算力网络">
 <div class="research-body">
 <h4 class="research-title">算力网络</h4>
-<p class="research-desc">研究计算与网络融合架构，包括算力感知、算力路由、边缘计算协同等技术。提出基于模型化的网络切片基站技术，实现网络资源与计算资源的高效协同。</p>
+<p class="research-desc">研究新型软件定义边缘算力网络业务智慧承载关键技术。</p>
 </div>
 </div>
 
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/edge-computing.svg" class="research-thumb" alt="边缘计算">
 <div class="research-body">
-<h4 class="research-title">边缘计算</h4>
-<p class="research-desc">研究边缘智能、边缘缓存、边缘协同计算等技术。基于模型压缩技术的资源受限边缘智能网络高效联邦学习方法，实现低时延、高可靠的网络服务。</p>
+<h4 class="research-title">边缘计算、工业互联网</h4>
+<p class="research-desc">研究边缘计算技术、工业互联网应用，包括资源受限边缘智能网络等。</p>
 </div>
 </div>
 
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/ai.svg" class="research-thumb" alt="人工智能">
 <div class="research-body">
-<h4 class="research-title">人工智能及应用</h4>
-<p class="research-desc">研究机器学习、深度学习在网络领域的应用，包括网络流量预测、异常检测、智能路由优化等。将AI技术应用于新一代网络的核心技术研发和产业化。</p>
+<h4 class="research-title">可信人工智能、大数据处理及应用</h4>
+<p class="research-desc">研究可信人工智能技术、大数据处理及应用，包括基于深度学习的网络安全技术等。</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/open-network.svg" class="research-thumb" alt="开放架构网络">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/network-security.svg" class="research-thumb" alt="网络安全">
 <div class="research-body">
-<h4 class="research-title">开放架构网络</h4>
-<p class="research-desc">研究网络开放架构、可编程网络、网络功能虚拟化（NFV）等技术。主导制定5项RFC互联网国际标准，推动网络的开放化和可编程化发展。</p>
+<h4 class="research-title">网络安全</h4>
+<p class="research-desc">研究网络安全技术，包括SDN环境下基于深度学习的DDoS攻击检测与防御等。</p>
 </div>
 </div>
 
 </div>
+
+### 研究亮点
+
+**网络转发与控制分离技术**
+
+首次提出网络转发与控制分离技术模型体系，提出基于模型化的网络切片基站技术，联合制定IETF互联网国际标准RFC6956，以文本贡献者身份制定国际标准多项（RFC5813、RFC6984、RFC6053等）。
+
+**边缘智能网络**
+
+研究资源受限边缘智能网络高效联邦学习方法，提出基于模型压缩技术的联邦学习优化方案。
+
+**软件定义网络性能优化**
+
+提出基于强化学习的SDN路由规划方法、基于图神经网络的SDN时延感知方法等，实现网络性能智能优化。
