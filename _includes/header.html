@@ -24,6 +24,8 @@
             {% assign nav_label = '团队成员' %}
           {% elsif nav.name == 'teaching' %}
             {% assign nav_label = '教学' %}
+          {% elsif nav.name == 'projects' %}
+            {% assign nav_label = '科研项目' %}
           {% else %}
             {% assign nav_label = nav.name | capitalize %}
           {% endif %}
