@@ -1,17 +1,24 @@
 ---
-title: "Teaching"
+title: "教学"
 layout: gridlay
 sitemap: false
 permalink: /teaching/
 ---
 
-## Teaching
+## 教学工作
 
-<div class="section-card">
-<ul>
-<li>Physics 1, 2, 3: The Feynman Lectures on Physics (1961&#8211;63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
-<li>Physics 219: Quantum Computing (1986)</li>
-<li>Graduate QED Seminar (1953&#8211;88)</li>
-<li>Physics X: Informal undergraduate Q&amp;A sessions (1961&#8211;78)</li>
-</ul>
-</div>
+### 研究生课程
+
+**《网络信息交换技术》**
+
+通过本课程的学习，掌握网络信息交换技术的基本原理和技术，着重于基于包结构的信息交换技术。要求学生掌握网络交换机的基本原理结构、协议和算法等，熟悉交换机内的调度（Scheduling）、流控制（Flow control）、和交通流量管理（traffic management）等重要的信息传输与交换技术。此外，学生还将从本课程中学到有关当前主要网络Internet以及传统ATM和电话网的一些基本结构知识和协议等，课程同时向学生简要介绍有关新型网络体系结构等方面的研究技术。
+
+**《高级分布式系统编程技术》**
+
+通过本课程的学习，掌握系统级编程的相关基础知识，掌握系统级软件的设计思想和方法，能站在更高层面看待分布式通信编程原理，建立系统级编程概念，学会分布式网络通信的系统级程序设计的通用方法。
+
+### 本科生课程
+
+**《操作系统原理》**
+
+通过课程的学习，使学生全面地了解和掌握操作系统的目标、作用和模型，从资源管理的角度领会操作系统的功能和实现过程；帮助学生建立计算机操作系统处理问题的思维模式，初步掌握设计系统的基本思想，基础知识、基本原理和基本方法；培养和提高学生设计程序和调试程序的能力，启发学生将该课程的知识引入到其它基础课和专业课的学习。
