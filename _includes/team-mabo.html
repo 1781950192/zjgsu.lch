@@ -1,0 +1,39 @@
+<div class="section-card">
+  {% assign mabo = site.data.team_members | where: "name", "马博" | first %}
+  <div class="member-profile">
+    <img src="{{ site.baseurl }}/images/{{ mabo.photo | default: 'team/default.jpg' }}" alt="马博" class="member-photo" loading="lazy">
+    <div class="member-info">
+      <h3>马博</h3>
+      
+      <p><strong>职称</strong>：副教授，硕士生导师</p>
+      
+      <p><strong>教育背景</strong>：博士，英国谢菲尔德大学（2017-2021）；硕士，英国纽卡斯尔大学（2015-2016）；本科，东南大学（2010-2014）</p>
+      
+      <p><strong>研究方向</strong>：异构网（HetNet）优化、无人机（UAV）网络优化、算力网络</p>
+      
+      <p><strong>电子邮件</strong>：{{ mabo.email | default: "mabo@zjgsu.edu.cn" }}</p>
+      
+      <p><strong>个人简介</strong>：1991年9月生，2021年8月加入浙江工商大学信息与电子工程学院，2024年12月升任副教授。博士期间连续三年获得谢菲尔德大学电子电气学院学院奖学金。2025年度浙江工商大学优秀教师。</p>
+      
+      <h4>学术兼职</h4>
+      <ul>
+        <li>IEEE International Conference on Communications (ICC) 无人机5G通信研讨会技术程序委员会委员（2022-2026）</li>
+        <li>IEEE Journal on Selected Areas in Communications (JSAC)、IEEE Transactions on Vehicular Technology (TVT)、IEEE Internet of Things Journal (IoT-J) 审稿人</li>
+      </ul>
+      
+      <h4>代表性论文</h4>
+      <ul>
+        <li>Bo Ma, Yexin Pan, Yong Xu, Ziyi Gao, Zitian Zhang, Chao Chen, Chuanhuang Li*. UAV-Assisted Computing Power Network Task Allocation and 3D Urban Trajectory Optimization. <strong>IEEE Internet of Things Journal</strong>, 2025.</li>
+        <li>Bo Ma, Xiaosen Hu, Yexin Pan, Qin Lu, Chuanhuang Li*. Optimizing Profit and Delay in Computing Power Network via Deep Deterministic Policy Gradient: A Task Decomposition and Computing Path Optimization Approach. <strong>IEEE Transactions on Services Computing</strong>, 2025.</li>
+        <li>Bo Ma, H. Kuang, S. Liu, C. Li. UAV Assisted Cellular Network Traffic Offloading: Joint Swarm, 3D Deployment, and User Allocation Optimization Based on a Data-Aware Method. <strong>Computer Networks</strong>, 2023.</li>
+      </ul>
+      
+      <h4>科研项目</h4>
+      <ul>
+        <li>国家自然科学基金青年项目"低时延高可靠无人机边缘算力网络"（2025-2027），主持</li>
+        <li>浙江省自然科学基金青年项目"基于深度确定性策略梯度算法的5G多无人机蜂窝异构网路径规划关键技术研究"（2022），主持</li>
+        <li>浙江工商大学省属高校基本科研业务费项目（青锐项目）"智联计算网络无人机业务承载方法研究"（2023），主持</li>
+      </ul>
+    </div>
+  </div>
+</div>

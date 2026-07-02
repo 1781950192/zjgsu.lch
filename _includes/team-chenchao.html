@@ -1,0 +1,39 @@
+<div class="section-card">
+  {% assign chenchao = site.data.team_members | where: "name", "陈超" | first %}
+  <div class="member-profile">
+    <img src="{{ site.baseurl }}/images/{{ chenchao.photo | default: 'team/default.jpg' }}" alt="陈超" class="member-photo" loading="lazy">
+    <div class="member-info">
+      <h3>陈超</h3>
+      
+      <p><strong>职称</strong>：特聘研究员，副教授，硕士生导师</p>
+      
+      <p><strong>职务</strong>：浙江工商大学信息与电子工程学院、萨塞克斯人工智能学院副院长、党委委员</p>
+      
+      <p><strong>研究方向</strong>：下一代无线通信、联邦学习、空天地一体化网络、网络编码、机器/深度学习</p>
+      
+      <p><strong>电子邮件</strong>：{{ chenchao.email | default: "chenchao@zjgsu.edu.cn" }}</p>
+      
+      <p><strong>个人简介</strong>：浙江德清人，Korea University海归博士，入选浙江省高校领军人才培养计划。2015年10月至今在浙江工商大学信息与电子工程学院工作。</p>
+      
+      <h4>学术获奖</h4>
+      <ul>
+        <li>浙江省科学技术进步奖二等奖（2021）</li>
+        <li>2021-2022年浙江工商大学"三育人"先进个人</li>
+      </ul>
+      
+      <h4>代表性论文</h4>
+      <ul>
+        <li>Chao Chen, Seung Jun Baek, Rui Yin, Shengtian Yang, Xiaohan Yu, Chuanhuang Li, Practical and Efficient Coded Transmission for Full-Duplex Relay Networks Without CSI, <strong>IEEE/ACM Transactions on Networking</strong>, 2024.</li>
+        <li>Chao Chen, Bohang Jiang, Shengli Liu, Chuanhuang Li, Celimuge Wu, Rui Yin, Efficient Federated Learning in Resource-Constrained Edge Intelligence Networks using Model Compression, <strong>IEEE Transactions on Vehicular Technology</strong>, 2024.</li>
+        <li>Chao Chen, Seungjun Baek, Multicast Scheduling for Relay-Based Heterogeneous Networks Using Rateless Codes, <strong>IEEE Transactions on Mobile Computing</strong>, 2017.</li>
+      </ul>
+      
+      <h4>科研项目</h4>
+      <ul>
+        <li>浙江省自然科学基金重点项目"定向毫米波传输网络多播优化调度关键技术研究"（2025-2027），主持</li>
+        <li>国家自然科学基金国际（地区）合作与交流项目"面向全双工通信系统的高吞吐量编码广播/多播技术研究"（2022-2023），主持</li>
+        <li>国家自然科学基金"基于流体模型的无线中继网络多播编码与优化调度"（2019-2021），主持</li>
+      </ul>
+    </div>
+  </div>
+</div>
