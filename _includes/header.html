@@ -26,6 +26,10 @@
             {% assign nav_label = '教学' %}
           {% elsif nav.name == 'projects' %}
             {% assign nav_label = '科研项目' %}
+          {% elsif nav.name == 'life' %}
+            {% assign nav_label = '科研生活' %}
+          {% elsif nav.name == 'equipment' %}
+            {% assign nav_label = '科研设备' %}
           {% else %}
             {% assign nav_label = nav.name | capitalize %}
           {% endif %}
