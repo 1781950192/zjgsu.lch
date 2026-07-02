@@ -48,19 +48,19 @@ permalink: /
 {::nomarkdown}
 <div class="campus-gallery">
   <div class="campus-item">
-    <img src="{{ site.baseurl }}/images/campus/campus1.jpg" alt="浙江工商大学图书馆" loading="lazy">
+    <img src="{{ site.baseurl }}/images/campus/campus1.jpg.svg" alt="浙江工商大学图书馆" loading="lazy">
     <p class="campus-caption">图书馆</p>
   </div>
   <div class="campus-item">
-    <img src="{{ site.baseurl }}/images/campus/campus2.jpg" alt="浙江工商大学墨湖" loading="lazy">
+    <img src="{{ site.baseurl }}/images/campus/campus2.jpg.svg" alt="浙江工商大学墨湖" loading="lazy">
     <p class="campus-caption">墨湖春色</p>
   </div>
   <div class="campus-item">
-    <img src="{{ site.baseurl }}/images/campus/campus3.jpg" alt="浙江工商大学体育馆" loading="lazy">
+    <img src="{{ site.baseurl }}/images/campus/campus3.jpg.svg" alt="浙江工商大学体育馆" loading="lazy">
     <p class="campus-caption">体育馆</p>
   </div>
   <div class="campus-item">
-    <img src="{{ site.baseurl }}/images/campus/campus4.jpg" alt="浙江工商大学教学楼" loading="lazy">
+    <img src="{{ site.baseurl }}/images/campus/campus4.jpg.svg" alt="浙江工商大学教学楼" loading="lazy">
     <p class="campus-caption">教学楼</p>
   </div>
 </div>
