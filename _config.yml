@@ -39,6 +39,7 @@ analytics:
 nav_pages:
   - name: publications
   - name: research
+  - name: projects
   - name: team
   - name: teaching
 
