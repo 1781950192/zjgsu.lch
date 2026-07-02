@@ -1,7 +1,8 @@
 # 李传煌教授的个人简介
 # 官方来源：https://mypage.zjgsu.edu.cn/kyc/lch2/main.htm
 
-- education:
+- name: 李传煌
+  education:
     - "博士，浙江大学（具体毕业年份待核实）"
   educationshort:
     - "博士，浙江大学"
@@ -10,6 +11,6 @@
     现任浙江工商大学科学技术部部长、浙江工商大学网络与通信工程研究所所长。
     曾任浙江工商大学信息与电子工程学院（人工智能学院）副院长、浙江工商大学网络信息中心副主任、浙江省东阳市副市长（挂职）。
     一直从事新一代网络核心技术的研究和产业化应用工作。
-  email: chuanhuang_li@zjgsu.edu.cn
+  email: chuanhuang.li@zjgsu.edu.cn
   address: "浙江省杭州市下沙高教园区学正街18号，综合楼1061"
   zip: "310018"
