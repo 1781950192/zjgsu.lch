@@ -18,6 +18,7 @@ permalink: /team/
 {% if site.data.team_members.size > 0 %}
 ## 课题组学生
 
+{::nomarkdown}
 <div class="grid-container">
   {% for member in site.data.team_members %}
   {% unless member.name == "陈超" or member.name == "马博" %}
@@ -35,11 +36,13 @@ permalink: /team/
   {% endunless %}
   {% endfor %}
 </div>
+{:/nomarkdown}
 {% endif %}
 
 {% if site.data.alumni.size > 0 %}
 ## 课题组已毕业学生
 
+{::nomarkdown}
 <div class="section-card">
   <table class="alumni-table">
     <thead>
@@ -56,6 +59,7 @@ permalink: /team/
     </tbody>
   </table>
 </div>
+{:/nomarkdown}
 {% endif %}
 
 ## 欢迎加入
