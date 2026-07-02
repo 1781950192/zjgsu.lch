@@ -15,13 +15,15 @@ permalink: /team/
 
 {% include team-mabo.html %}
 
+{% include team-tuhuaqing.html %}
+
 {% if site.data.team_members.size > 0 %}
 ## 课题组学生
 
 {::nomarkdown}
 <div class="grid-container">
   {% for member in site.data.team_members %}
-  {% unless member.name == "陈超" or member.name == "马博" %}
+  {% unless member.name == "陈超" or member.name == "马博" or member.name == "凃化清" %}
   <div class="team-card">
     <img src="{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
     <h4 class="team-name">{{ member.name }}</h4>
