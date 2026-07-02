@@ -1,32 +1,36 @@
 <footer class="site-footer">
   <div class="footer-grid">
     <div>
-      <h5>About</h5>
+      <h5>办公地点</h5>
       <p>
-        {{ site.name }}<br>
-        {{ site.title }}<br>
-        {{ site.institution }}
+        {{ site.office_address | default: "浙江省杭州市下沙高教园区学正街18号，综合楼1061" }}
       </p>
     </div>
     <div>
-      <h5>Contact</h5>
+      <h5>电子邮件</h5>
       <p>
-        <a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a><br>
+        <a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a>
+      </p>
+    </div>
+    <div>
+      <h5>相关链接</h5>
+      <p>
+        <a href="https://www.zjgsu.edu.cn" target="_blank"><i class="fa-solid fa-link"></i> 浙江工商大学</a><br>
+        <a href="https://iee.zjgsu.edu.cn" target="_blank"><i class="fa-solid fa-link"></i> 信息与电子工程学院</a><br>
+        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a><br>{% endif %}
         {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}"><i class="fa-brands fa-github"></i> GitHub</a><br>{% endif %}
       </p>
     </div>
     <div>
-      <h5>Links</h5>
+      <h5>课题组微信公众号</h5>
       <p>
-        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a><br>{% endif %}
-        {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}"><i class="ai ai-researchgate"></i> ResearchGate</a><br>{% endif %}
-        <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa-brands fa-github"></i> Use this template!</a>
+        待更新...
       </p>
     </div>
   </div>
   <div class="footer-grid">
     <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
+      &copy; {{ "now" | date: "%Y" }} {{ site.group_name | default: site.name | escape }}. All rights reserved.
     </div>
   </div>
 </footer>
