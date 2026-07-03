@@ -42,18 +42,18 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/ai.svg" class="research-thumb" alt="人工智能">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/drone.svg" class="research-thumb" alt="无人机">
 <div class="research-body">
-<h4 class="research-title">可信人工智能、大数据处理及应用</h4>
-<p class="research-desc">研究可信人工智能技术、大数据处理及应用，包括基于深度学习的网络安全技术等。</p>
+<h4 class="research-title">无人机网络</h4>
+<p class="research-desc">研究无人机通信网络技术，包括无人机集群组网、空天地一体化网络、无人机辅助边缘计算等。</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/network-security.svg" class="research-thumb" alt="网络安全">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/llm.svg" class="research-thumb" alt="大模型">
 <div class="research-body">
-<h4 class="research-title">网络安全</h4>
-<p class="research-desc">研究网络安全技术，包括SDN环境下基于深度学习的DDoS攻击检测与防御等。</p>
+<h4 class="research-title">大模型与网络智能化</h4>
+<p class="research-desc">研究大模型技术在网络领域的应用，包括大模型驱动的网络运维、智能网络资源调度等。</p>
 </div>
 </div>
 

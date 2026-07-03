@@ -25,7 +25,7 @@ links:
 # ============================================================
 accent_color: "#1a7a6d"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
-description: "浙江工商大学李传煌教授课题组 - 智慧网络、软件定义网络、算力网络、边缘计算、人工智能"
+description: "浙江工商大学李传煌教授课题组 - 智慧网络、软件定义网络、算力网络、边缘计算、大模型、无人机网络"
 baseurl: "/zjgsu.lch"      # 仓库名，用于 GitHub Pages
 url: "https://1781950192.github.io"  # 你的 GitHub Pages 域名
 
