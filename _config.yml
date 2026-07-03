@@ -92,8 +92,9 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
   query: "@*"
+  bibliography_list_tag: ul
   bibliography_list_attributes:
-    reversed: "reversed"
+    class: "pub-list"
 
 exclude:
   - Gemfile
