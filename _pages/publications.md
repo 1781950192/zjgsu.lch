@@ -10,10 +10,6 @@ permalink: /publications/
 <input type="text" class="pub-search" id="pubSearch" placeholder="按标题、作者或年份筛选...">
 
 <div class="section-card" id="pubList">
-<h3>预印本</h3>
-
-{% bibliography --query @unpublished %}
-
 <h3>期刊论文</h3>
 
 {% bibliography --query @article %}
