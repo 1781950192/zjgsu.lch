@@ -38,9 +38,13 @@ permalink: /
 
 ### 联系我们
 
-**地址**：{{ site.data.pi[0].address | default: "浙江省杭州市下沙高教园区学正街18号" }}
+**地址**：浙江工商大学 信息与电子工程学院 信电楼415
 
-**邮箱**：{{ site.email }}
+**邮箱**：
+- 李传煌：chuanhuang.li@zjgsu.edu.cn
+- 陈超：chenchao@zjgsu.edu.cn
+- 马博：mabo@zjgsu.edu.cn
+- 凃化清：待补充
 
 **欢迎优秀的本科生、硕士生、博士生加入课题组！**
 
