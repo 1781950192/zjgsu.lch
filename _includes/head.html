@@ -26,6 +26,8 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <!-- Replace no-js with js as early as possible -->
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
