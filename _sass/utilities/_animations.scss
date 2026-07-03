@@ -3,22 +3,10 @@
 // =============================================================
 
 .fade-in-section {
-  // Content is visible by default (no-js fallback)
+  // Content is always visible — no JS dependency for basic display.
+  // The IntersectionObserver (site.js) still fires but does not gate visibility.
   opacity: 1;
   transform: none;
-}
-
-// Only enable the fade-in animation when JavaScript is available
-.js .fade-in-section {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-              transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-
-  &.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 // Back-to-top floating button
