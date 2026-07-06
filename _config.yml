@@ -38,12 +38,12 @@ analytics:
 # ============================================================
 nav_pages:
   - name: home
+  - name: team
   - name: publications
   - name: research
   - name: projects
   - name: life
   - name: equipment
-  - name: team
   - name: teaching
 
 # ============================================================
