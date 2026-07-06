@@ -69,6 +69,6 @@ permalink: /
 - 李传煌：chuanhuang.li@zjgsu.edu.cn
 - 陈超：chenchao@zjgsu.edu.cn
 - 马博：mabo@zjgsu.edu.cn
-- 凃化清：待补充
+- 凃化清：thq@mail.zjgsu.edu.cn
 
 **欢迎优秀的本科生、硕士生、博士生加入课题组！**
