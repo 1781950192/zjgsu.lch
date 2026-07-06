@@ -1,0 +1,140 @@
+// =============================================================
+// Projects page — grant cards
+// =============================================================
+
+.grants-grid {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.grant-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6) var(--space-7);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+
+  &:hover {
+    border-color: var(--accent-light);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.grant-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.grant-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.55;
+  flex: 1;
+  min-width: 200px;
+}
+
+.grant-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  white-space: nowrap;
+}
+
+.grant-level {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.6rem;
+  border-radius: var(--radius-full);
+
+  &--national {
+    background: #eef6ff;
+    color: #1a56db;
+    border: 1px solid #b9d4ff;
+  }
+
+  &--provincial {
+    background: #fff8e6;
+    color: #b78103;
+    border: 1px solid #f5d97d;
+  }
+
+  &--university {
+    background: #ecfdf5;
+    color: #047857;
+    border: 1px solid #86efac;
+  }
+
+  &--participate {
+    background: #f5f3ff;
+    color: #6d28d9;
+    border: 1px solid #c4b5fd;
+  }
+}
+
+.grant-year {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: 'DM Sans', monospace, sans-serif;
+  font-weight: 500;
+}
+
+.grant-body {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  margin-bottom: var(--space-4);
+}
+
+.grant-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--space-4);
+  border-top: 1px dashed var(--border-color);
+}
+
+.grant-pi {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+
+  &::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  strong {
+    color: var(--accent);
+  }
+}
+
+// Funding agencies section
+.funding-agencies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.funding-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-5);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
