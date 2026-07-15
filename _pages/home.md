@@ -11,12 +11,7 @@ permalink: /
     <p class="home-hero-sub">浙江工商大学 信息与电子工程学院</p>
   </div>
   <div class="hero-orbit">
-    <div class="orbit-stage">
-      <div class="ring ring-1"><span class="node"></span></div>
-      <div class="ring ring-2"><span class="node"></span></div>
-      <div class="ring ring-3"><span class="node"></span></div>
-      <div class="core">ITL</div>
-    </div>
+    <canvas id="constellation" width="680" height="680" class="constellation-canvas"></canvas>
   </div>
 </div>
 
