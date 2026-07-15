@@ -1,0 +1,119 @@
+// =============================================================
+// Home — hero split (text + network-orbit animation)
+// =============================================================
+
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--space-8);
+  align-items: center;
+  margin-bottom: var(--space-4);
+
+  .hero-text {
+    min-width: 0;
+  }
+
+  .hero-orbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+}
+
+// Network orbit — pure CSS, no JS
+.orbit-stage {
+  position: relative;
+  width: 280px;
+  height: 280px;
+
+  .ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid var(--accent-light);
+    animation: orbit-spin linear infinite;
+
+    // Radial connector: center -> node, always points to core
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 1px;
+      height: 50%;
+      background: var(--accent);
+      transform: translateX(-50%);
+      opacity: 0.45;
+    }
+  }
+
+  .node {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  // Three orbits — different sizes, speeds, directions (parallax)
+  .ring-1 {
+    width: 120px;
+    height: 120px;
+    animation-duration: 16s;
+  }
+
+  .ring-2 {
+    width: 190px;
+    height: 190px;
+    animation-duration: 26s;
+    animation-direction: reverse;
+  }
+
+  .ring-3 {
+    width: 260px;
+    height: 260px;
+    animation-duration: 38s;
+  }
+
+  .core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 8px var(--accent-light);
+  }
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+// Respect users who disable motion
+@media (prefers-reduced-motion: reduce) {
+  .orbit-stage .ring {
+    animation: none;
+  }
+}

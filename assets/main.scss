@@ -42,6 +42,7 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 @import "components/chips";
 @import "components/projects";
 @import "components/stats";
+@import "components/hero-orbit";
 
 // Layouts
 @import "layouts/grid";
