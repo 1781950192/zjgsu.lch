@@ -42,11 +42,17 @@ h4 { font-size: 1.125rem; }
 p {
   color: var(--text-secondary);
   margin-bottom: var(--space-4);
-  max-width: 65ch;
+  max-width: 75ch;
 }
 
 li {
-  max-width: 65ch;
+  max-width: 75ch;
+}
+
+// Home page — allow wider reading measure (group intro, not article prose)
+.fade-in-section p,
+.fade-in-section li {
+  max-width: none;
 }
 
 strong, b {
