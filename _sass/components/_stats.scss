@@ -1,0 +1,72 @@
+// =============================================================
+// Home — statistics band (proof points)
+// =============================================================
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin: var(--space-8) 0 var(--space-10);
+  padding: var(--space-6) var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+
+  .stat {
+    text-align: center;
+    padding: var(--space-2) var(--space-3);
+    position: relative;
+
+    // Vertical divider between columns (skip the last one)
+    &:not(:last-child) {
+      border-right: 1px solid var(--border-color);
+    }
+  }
+
+  .stat-num {
+    display: block;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+  }
+
+  .stat-plus,
+  .stat-unit {
+    font-size: 1.25rem;
+    font-weight: 700;
+    vertical-align: super;
+  }
+
+  .stat-label {
+    display: block;
+    margin-top: var(--space-2);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 0.01em;
+  }
+
+  // Two columns on tablets — drop the intra-row divider
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6) var(--space-4);
+
+    .stat:nth-child(2n) {
+      border-right: none;
+    }
+  }
+
+  // Stacked on small phones
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+
+    .stat {
+      border-right: none;
+      padding: var(--space-3) 0;
+    }
+  }
+}
