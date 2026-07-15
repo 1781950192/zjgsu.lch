@@ -1,9 +1,16 @@
 (function () {
-  var c = document.getElementById('constellation');
-  if (!c) return;
+  // Create & append canvas directly to <body> — guaranteed outside all layout containers
+  var wrapper = document.createElement('div');
+  wrapper.id = 'constellation-bg';
+  wrapper.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;pointer-events:none;overflow:hidden;';
+
+  var c = document.createElement('canvas');
+  c.id = 'constellation';
+  wrapper.appendChild(c);
+  document.body.insertBefore(wrapper, document.body.firstChild);
+
   var ctx = c.getContext('2d');
 
-  // Fill viewport & resize
   function resize() {
     c.width = window.innerWidth;
     c.height = window.innerHeight;
@@ -11,14 +18,13 @@
   resize();
   window.addEventListener('resize', resize);
 
-  var W = c.width, H = c.height;
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var N = 55, pts = [], i, p;
 
   for (i = 0; i < N; i++) {
     pts.push({
-      x: Math.random() * W,
-      y: Math.random() * H,
+      x: Math.random() * c.width,
+      y: Math.random() * c.height,
       vx: (Math.random() - 0.5) * 0.35,
       vy: (Math.random() - 0.5) * 0.35
     });
@@ -26,14 +32,13 @@
 
   function draw() {
     ctx.clearRect(0, 0, c.width, c.height);
-    W = c.width; H = c.height;
 
     for (i = 0; i < N; i++) {
       p = pts[i];
       if (!reduce) {
         p.x += p.vx; p.y += p.vy;
-        if (p.x < 0 || p.x > W) p.vx *= -1;
-        if (p.y < 0 || p.y > H) p.vy *= -1;
+        if (p.x < 0 || p.x > c.width) p.vx *= -1;
+        if (p.y < 0 || p.y > c.height) p.vy *= -1;
       }
     }
 
